@@ -1,0 +1,45 @@
+{
+    "name": "CustomInputAction",
+    "maps": [
+        {
+            "name": "VehicleMovement",
+            "id": "826b92d1-c36f-4452-8aab-8e7bdaa8f561",
+            "actions": [
+                {
+                    "name": "Driving",
+                    "type": "Button",
+                    "id": "8fa356ea-0838-4602-b5a6-5ab642c5947d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "cff47640-0537-42bc-bbd0-94d0fd220db9",
+                    "path": "<Gamepad>/dpad/left",
+                    "interactions": "Hold",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Driving",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "58f839ed-b7cd-488c-899b-65abf48f3bdc",
+                    "path": "",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Driving",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
